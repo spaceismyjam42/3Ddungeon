@@ -1,0 +1,68 @@
+/* css 3d dungeon */
+
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-align: justified;
+    
+}
+
+html, body {
+margin: 0;
+padding: 0; }
+
+
+
+.sidebar {
+word-wrap: break-word;
+position: fixed;
+top: 0px;
+bottom: 0px;
+left: 0px;
+width: 200px;
+padding: 15px;
+background: #1c1c1c;
+opacity: .6; 
+color: #ffffff;
+}
+
+h1 {
+    color: #ffffff;
+    opacity: 1;
+}
+
+
+
+#glower {
+    background-color: #ffff00;
+    position: absolute;
+    border: 5px solid transparent;    
+    -webkit-transition: border 0.5s linear, box-shadow 0.5s linear;
+       -moz-transition: border 0.5s linear, box-shadow 0.5s linear;
+            transition: border 0.5s linear, box-shadow 0.5s linear;
+    opacity: .2;
+    border: 1px;
+    top: 36.8%;
+    left: 43.8%;
+    width: 82px;
+    height: 82px;
+    margin: 50px;
+}
+
+#glower.active {
+    border-color: #ff00ff;
+    -webkit-box-shadow: 0 0 5px #ff00ff;
+       -moz-box-shadow: 0 0 5px #ff00ff;
+            box-shadow: 0 0 5px #ff00ff;
+}
+
+
+
+
+
+
+

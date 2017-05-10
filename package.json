@@ -1,0 +1,17 @@
+{
+  "name": "3ddungeon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anastasia Lampson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "consolidate": "0.14.5",
+    "swig": "1.4.2"
+  }
+}
